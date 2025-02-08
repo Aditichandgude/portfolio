@@ -1,0 +1,57 @@
+*{
+    font-family:system-ui;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+}
+    #nav{
+    background-color: #FFD3D3;
+    display:flex;
+    justify-content:center;
+    gap:21px;
+    padding:21px;
+    font-weight:500;
+
+}
+#hero{
+    display:flex;
+    height:80vh;
+    
+}
+.one{
+    width:60%;
+    height:100%;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:13px;
+
+}
+.one>div:nth-child(1){
+    font-size:30px ;
+    font-weight: 500;
+}
+.one>div:nth-child(2){
+    font-size:40px ;
+    font-weight: 500;
+}
+.one>div:nth-child(3){
+    font-size:15px ;
+    font-weight: 500;
+}
+.two{
+    height:100%;
+    width:40%;
+    background-color: rgb(223, 219, 219);
+
+}
+.two>img{
+    height:100%;
+    width:100%;
+    padding:10px;
+    object-fit: cover;
+}
